@@ -1,5 +1,5 @@
 {
-  "name": "adin/bannerslider-magento2",
+  "name": "magestore/bannerslider-magento2",
   "description": "N/A",
   "require": {
     "php": ">=7.0.0"
