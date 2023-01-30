@@ -228,7 +228,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
      */
     protected function _prepareMassaction()
     {
-        $this->setMassactionIdField('entity_id');
+        $this->setMassactionIdField('banner_id');
         $this->getMassactionBlock()->setFormFieldName('banner');
 
         $this->getMassactionBlock()->addItem(
