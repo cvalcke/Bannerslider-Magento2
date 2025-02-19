@@ -111,6 +111,9 @@ abstract class AbstractAction extends \Magento\Backend\App\Action
      * @var \Magento\Framework\Image\AdapterFactory
      */
     protected $_adapterFactory;
+
+    protected $_sliderCollectionFactory;
+    
     /**
      * @param \Magento\Backend\App\Action\Context $context
      * @param \Magestore\Bannerslider\Model\BannerFactory $bannerFactory
